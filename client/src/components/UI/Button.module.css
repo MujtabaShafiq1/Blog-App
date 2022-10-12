@@ -1,0 +1,22 @@
+.btn {
+    cursor: pointer;
+    font: inherit;
+    background-color: teal;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: rgb(1, 87, 87);
+    color: white;
+}
+
+.btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}

@@ -1,0 +1,41 @@
+.form {
+    margin-top: 1rem;
+    position: relative;
+    text-align: center;
+}
+
+.control {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.control label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.control input,
+.control textarea {
+    font: inherit;
+    padding: 0.35rem;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    border: 1px solid #c1d1d1;
+    display: block;
+    width: 50%;
+    font-size: 1.25rem;
+}
+
+.control textarea:focus {
+    background-color: #cbf8f8;
+    outline-color: teal;
+}
+
+.actions button {
+    font-size: 1.25rem;
+}

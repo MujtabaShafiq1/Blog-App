@@ -1,0 +1,93 @@
+.homePage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.homePage .post {
+    width: 600px;
+    height: auto;
+    max-height: 600px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.postHeader {
+    display: flex;
+}
+
+.postHeader .title {
+    flex: 1;
+    color: #212929;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.delete {
+    float: right;
+    padding: 5px;
+    color: red;
+    margin-top: 0%;
+}
+
+.delete:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.2);
+}
+
+.postTextContainer {
+    word-wrap: break-word;
+    height: auto;
+    max-height: 400px;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.imageContainer {
+    height: auto;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .author {
+    font-style: italic;
+    color: #566d6d;
+}
+
+.likeContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.likeContainer .image {
+    flex: 0;
+    height: 3vh;
+    filter: opacity(0.2) drop-shadow(0 0 0 grey);
+}
+
+.likeContainer .image:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.2);
+}
+
+.likeContainer .likes {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.likeContainer .liked {
+    filter: opacity(0.4) drop-shadow(0 0 0 blue);
+}
